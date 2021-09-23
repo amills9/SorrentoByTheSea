@@ -1,0 +1,31 @@
+/* Style Sheet based for the Printing requirements 
+Base Style sheet for printing better layout
+*/
+
+@media print {
+   p.wrapper {font-family: Helvetica, sans-serif}
+   .topnav {display: none;}
+   .footer {display: none;}
+   h1, h2 {font-size: 100%;}
+   .wrapper {font-size: 75%;}
+   .container {display: none;}
+   .mapouter {display: none;}
+   .center {display: none;}
+   .p {line-height: normal;}
+
+   .row:before {
+      display: block;
+      content: "Thank you for printing Sorento by the sea. Please continue to check out our site.";
+      margin-bottom: 10px;
+      border: 1px solid #bbb;
+      padding: 3px 5px;
+      font-style: italic;
+      text-align: center;}
+      
+ }
+ 
+ @media screen, print {
+
+ }
+
+

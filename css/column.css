@@ -1,0 +1,21 @@
+.column {
+  float: left;
+  width: 40%;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.column1 {
+  float: right;
+  width: 40%;
+  padding-left: 0px;
+  padding-right: 15px;
+  text-align: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

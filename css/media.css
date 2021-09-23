@@ -1,0 +1,19 @@
+/* Style Sheet based for mobile phone use 
+Justification of smaller display space
+*/
+
+@media screen and (max-width: 800px) {
+    .body{line-height: 50%; color: #fff;}
+    
+    h1, h2, p {font-size: 75%;}
+    .cols{width: 100%}
+    }
+    
+    @media screen {
+      p.wrapper {
+        font-family: Helvetica, sans-serif;
+        line-height: normal;
+        color: #fff;
+          }
+   }
+  

@@ -1,0 +1,41 @@
+/* Style Sheet based for the Client requirements 
+Base Style sheet per clients instructions
+*/
+
+body{color: #000000;
+  background-color: #ffffff;
+  font-family: Helvetica, sans-serif;
+}
+
+#wrapper{background-color: #ffffff;
+	width: 100%;
+  margin-bottom: 80px;
+}
+
+
+h1 {
+  color: #87423c;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #4d1d18;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+line-height: 150%;
+color: black;
+}
+
+a {
+  color: #87423c
+}
+
+
+
+footer{
+  color: #87423c;
+}
