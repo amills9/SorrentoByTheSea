@@ -21,8 +21,11 @@ This is a simple website that requires no further help.
 ## Author
 
 Andrew Mills
+
 Created for TAFE NSW Australia
+
 Cert IV Programming
+
 ICTWEB431 - Web Programming
 
 ### Version History
