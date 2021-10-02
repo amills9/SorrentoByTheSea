@@ -9,6 +9,17 @@ input[type=text], select, textarea {
   resize: none;
  }
 
+ input[type=email], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: none;
+ }
+
 input[type=submit] {
   background-color: #4d1d18;
   color: white;
@@ -26,4 +37,29 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #e2d5d5;
   padding: 20px;
+}
+
+form p
+{
+    display: absolute;
+}
+
+label
+{
+    width: 150px;
+}
+
+input
+{
+	margin-right: 1em;
+}
+
+button
+{
+    padding: 5px;
+}
+
+.error
+{
+    color: red;
 }
