@@ -1,6 +1,7 @@
 # SorrentoByTheSea
 
  HTML, CSS Website for Sorrento by the Sea
+ JavaScript added for ICTICT414
 
 ## Description
 
