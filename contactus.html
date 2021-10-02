@@ -49,42 +49,40 @@ Purpose: Base HTML file to start building
 				<div class="column3">
 					<div class="container">
 					<h2>Contact Us</h2>
-					<form action="#" novalidate>
-						<p>
-							<label for="fullName">Full Name:</label>
-							<input type="text" id="fullName" name="fullName">
-							<div class="error1"></div>
-							
-						</p>
-
-						<p>
-							<label for="email">Email:</label>
-							<input type="email" id="email" name="email" onkeyup="email_validation(this.value)">
-							<div class="error2"></div>
-						</p>
-						<p>
-							<label for="homePhone">Home phone:</label>
-							<input type="text" id="homePhone" name="homePhone">
-						</p>
-						<p>
-							<label for="mobile">Mobile:</label>
-							<input type="text" id="mobile" name="mobile">
-							<div class="error3"></div>
-						</p>
-						<p id="p_checkbox">
-							<label for="chkbox">Please check the box:</label>
-							<input type="checkbox" name="chkbox" id="chkbox">
-							<div class="error4"></div>
-						</p>
-						<p>
-							<label for="question">Question:</label>
-							<textarea name="question" id="question" onFocus="this.select();"></textarea>
-							<div class="error5"></div>
-						</p>
-						<p>
-							<button type="submit" id="send">Send</button>&nbsp;&nbsp;
-							<button type="reset" id="resetBtn">Clear</button>
-						</p>
+	<form action="#" novalidate>
+		<p>
+			<label for="fullName">Full Name:</label>
+			<input type="text" id="fullName" name="fullName">
+			<div class= "error" id="error1"></div>
+		</p>
+		<p>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email">
+			<div class="error" id = "error2"></div>
+		</p>
+		<p>
+			<label for="homePhone">Home phone:</label>
+			<input type="text" id="homePhone" name="homePhone">
+		</p>
+		<p>
+			<label for="mobilePhone">Mobile:</label>
+			<input type="text" id="mobilePhone" name="mobilePhone">
+			<div class="error" id="error3"></div>
+		</p>
+		<p>
+			<label for="chkbox">Agree to our T&C:</label>
+			<input type="checkbox" name="chkbox" id="chkbox">
+			<div class="error" id = "error4"></div>
+		</p>
+		<p>
+			<label for="question">Question:</label>
+			<textarea name="question" id="question"></textarea>
+			<div class="error" id = "error5"></div>
+		</p>
+		<p>
+			<button type="submit" id="send">Send</button>&nbsp;&nbsp;
+			<button type="reset" id="resetBtn">Clear</button>
+		</p>
 					</form>
 				</section>
 			</main>
@@ -118,7 +116,7 @@ Purpose: Base HTML file to start building
 		<br/>
 	  
 	</footer>
-	<script src="javascript/contactvalidator.js"></script>
+	<script src="javascript/contact.js"></script>
 
 </body>
 

@@ -53,14 +53,14 @@ if (homePhone.value.length == 0 || mobilePhone.value.length == 0){
 
 // Validate T&Cs checkbox
 
-/*
-if (checkedBox.checked != true){
+
+if (checkedBox.checked == false){
 	changeBorderColor(checkedBox, "red")
 	updateError(error4, "Please accept our T&Cs")
 } else {
 	changeBorderColor(checkedBox, "green")
 }
-*/
+
 
 // Validate questionbox
 
