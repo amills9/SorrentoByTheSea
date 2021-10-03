@@ -27,69 +27,68 @@ function validate(){
 	if (fullName.value.length < 2) {
 	updateError(error1, "Please enter a name");
 	changeBorderColor(fullName, "red");
-}else{
+	}else{
 	changeBorderColor(fullName, "green");} 
 
 // Validate email address
 
-if (enteredEmailAddress.value.match(emailFormat)) {
-		changeBorderColor(enteredEmailAddress, "green");
-    }else{
+	if (enteredEmailAddress.value.match(emailFormat)) {
+	changeBorderColor(enteredEmailAddress, "green");
+	}else{
 	updateError(error2, "Please enter a valid email address");
 	changeBorderColor(enteredEmailAddress, "red");;
 	}
 
 // Validate phone number(s)
 
-if (homePhone.value.length > 0){
+	if (homePhone.value.length > 0){
 	homePhoneNumber();
-} else {
+	} else {
 	mobilePhoneNumber();
-}
+	}
 
-if (homePhone.value.length == 0 || mobilePhone.value.length == 0){
+	if (homePhone.value.length == 0 || mobilePhone.value.length == 0){
 	updateError(error3, "Please enter a phone number")
-}
+	}
 
 // Validate T&Cs checkbox
 
 
-if (checkedBox.checked == false){
+	if (checkedBox.checked == false){
 	changeBorderColor(checkedBox, "red")
 	updateError(error4, "Please accept our T&Cs")
-} else {
+	} else {
 	changeBorderColor(checkedBox, "green")
-}
+	}
 
 
 // Validate questionbox
 
-if (questionBox.value.length >= 10){
+	if (questionBox.value.length >= 10){
 	changeBorderColor(questionBox, "green");
-} else {
+	} else {
 	changeBorderColor(questionBox, "red");
 	updateError(error5, "Please enter your question")
-}
+	}
 
 }; // end of function validate()
 
 
 function homePhoneNumber(){
 	if (homePhone.value.match(phoneNumberFormat)) {
-		changeBorderColor(homePhone, "green");
+	changeBorderColor(homePhone, "green");
 	} else {
-		changeBorderColor(homePhone, "red");;
-		updateError(error3, "Please enter a valid phone number");
+	changeBorderColor(homePhone, "red");;
+	updateError(error3, "Please enter a valid phone number");
 	}
 }; //end of homePhoneNumber()
 
 function mobilePhoneNumber(){
-
 	if (mobilePhone.value.match(phoneNumberFormat)) {
-		changeBorderColor(mobilePhone, "green");
+	changeBorderColor(mobilePhone, "green");
 	} else {
-		changeBorderColor(mobilePhone, "red");
-		updateError(error3, "Please enter a valid mobile number");
+	changeBorderColor(mobilePhone, "red");
+	updateError(error3, "Please enter a valid mobile number");
 	}
 }; // end of mobileNumber()
 
@@ -100,4 +99,4 @@ function changeBorderColor(element, color){
 
 function updateError(element, text){
 	element.innerHTML = text;
-} // end of updateError()
+} // end of updateError()S

@@ -34,6 +34,7 @@ ICTWEB431 - Web Programming
 * 0.1 Initial Release
 * 1.0 Final Submit - ICTWEB413
 * 2.0 Initial change - ICTICT414
+* 2.1 Calendar Inital, contact form validatation.
   
 ### License
 

@@ -1,57 +1,61 @@
 <!DOCTYPE html>
-<!--
-Author: Andrew Mills - Base HTML file for WebProgramming
-
-Use of CSS. Add CSS file to css folder
-Use of Images. Add Images to images folder
-
-Created: August 2021
-Purpose: Base HTML file to start building
--->
-
 <html lang="en">
-<head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+	    <link rel="stylesheet" href="css/calendar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+	<link rel="stylesheet" href="css\topnav.css">
+	<link rel="stylesheet" href="css\style2.css">
+	<link rel="stylesheet" href="css\column.css">
+	<link rel="stylesheet" href="css\media.css">
+	<link rel="stylesheet" href="css\print.css">
 
-<link rel="stylesheet" href="css\topnav.css">
-<link rel="stylesheet" href="css\style1.css">
-<link rel="stylesheet" href="css\style2.css">
-<link rel="stylesheet" href="css\column.css">
-<link rel="stylesheet" href="css\media.css">
-<link rel="stylesheet" href="css\print.css">
-
-</head>
-
-<header>
-    <div class="topnav">
+	<div class="topnav">
 		<a href="index.html">Home</a>
 		<a href = contactus.html>Contact Us</a>
 		<a href = localattractions.html>Local Attractions</a>
 		<a href = pricing.html>Pricing</a>
 		<a href = petpolicy.html>Pet Policy</a>
 		<a class = "active" href= booking.html>Booking</a>
-	  
-</div>
-</header>
-
-<body>
-    <div id="wrapper">
-
-		<a href="index.html">Home<img src="images\sorrento_by_the_sea_logo.jpg" class="logo"></a>
-	
-<main>
-<div class="row">
-	<div class="column">
-	</div>
-</div>	
-<footer class="footer">
-	
-	<a href="https://www.facebook.com/" target= _blank><img src="images\facebook_small.png" class="smlimg"></a>
-	<a href = "https://www.instagram.com/" target= _blank><img src="images\instagram_small.png" class="smlimg"></a>
-	<a href="https://twitter.com/" target= _blank><img src="images\twitter_small.png" class="smlimg"></a>
-	<a href="https://youtube.com/" target= _blank><img src="images\youtube-variation_small.png" class="smlimg"></a>
-  <a href="https://paypal.com" target= _blank><img src="images\paypal_small.png" class="smlimg"></a>
-	<br/>
   
-</footer>
-</body>
+</div>
+
+  </head>
+  <body>
+	<a href="index.html"><img src="images\sorrento_by_the_sea_logo.jpg" class="logo"></a>
+	<div class="container">
+		
+      <div class="calendar">
+        <div class="month">
+          <i class="fas fa-angle-left prev"></i>
+          <div class="date">
+            <h1></h1>
+            <p></p>
+          </div>
+          <i class="fas fa-angle-right next"></i>
+        </div>
+        <div class="weekdays">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
+        <div class="days"></div>
+      </div>
+    </div>
+
+    <script src="javascript/calendar.js"></script>
+  </body>
 </html>
